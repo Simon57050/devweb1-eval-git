@@ -13,3 +13,9 @@ $ git commit -m "Votre message de commit"
 $ git branch -r
 $ git push origin master
 $ git status
+$ git push --set-upstream origin master
+$ git branch dev 
+$ git checkout dev
+$ git add index.html
+$ git commit -m "ajout du nouveau fichier"
+git push --set-upstream origin dev
